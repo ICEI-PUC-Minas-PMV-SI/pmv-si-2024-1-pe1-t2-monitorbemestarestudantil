@@ -29,9 +29,10 @@ Objetivos Específicos
 4-Justificativa
 	A prevenção do suicídio é uma preocupação mundial, conforme relatório da OMS intitulado Prevenção do suicídio: um imperativo global . Em âmbito nacional, a preocupação com os crescentes índices levou à sanção da Lei nº 13.819/2019, instituindo a Política Nacional de Prevenção da Automutilação e do Suicídio no Brasil (PNPAS).
 	Os estudantes universitários formam um grupo mais susceptível a sofrimento psíquico e ideação suicida do que a população geral, onde cerca de 15% a 30% de tal grupo irão apresentar algum transtorno mental durante a formação. 
-	 Entretanto, o medo do julgamento ou ignorância acerca da natureza do sofrimento psíquico reduzem a procura de jovens por atendimento especializado, prejudicando a efetivação de medidas de prevenção,
+	Entretanto, o medo do julgamento ou ignorância acerca da natureza do sofrimento psíquico reduzem a procura de jovens por atendimento especializado, prejudicando a efetivação de medidas de prevenção,
 	É sabido que, geralmente, pessoas com alto nível de estigma preferem abordagens digitais a atendimentos face a face . Logo, o desenvolvimento de ferramentas de informática, com garantia ao sigilo de dados, permitiria maior interação com estudantes de graduação acerca de saúde mental e eventuais ideações suicidas.
 	A detecção de sinais de alerta quanto a variáveis relacionadas ao comportamento suicida, por meio da aplicação de questionários e interação com o usuário do sistema, pode ser direcionada ao setor da Instituição de Ensino responsável por medidas de fomento ao bem-estar estudantil, subsidiando ações de prevenção focas no indivíduo e capazes de evitar episódios agudos.
+
 5-Público alvo
 	Definiu-se como público do alvo do presente trabalho, estudantes de graduação da PUC-MG, sem distinção de gênero, sem distinção de gênero ou de idade.
 	Ainda receberão dados coletados, bem como alertas de risco, profissionais da Universidade responsáveis pro fomento ao bem-estar mental estudantil.
