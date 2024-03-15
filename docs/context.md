@@ -25,20 +25,14 @@ Objetivos Específicos
    
 # Justificativa
 	 
-   
-# Justificativa
-	 
-	O comportamento suicida é conceitualizado como um contínuo de pensamentos e ações desde a ideação ao suicídio em si . Estudos demonstram que, dentre os principais fatores de risco para o comportamento suicida, encontram-se situações de alto nível de estresse e angústia, como transições e mudanças que fazem parte do momento vivido por universitários .
+O comportamento suicida é conceitualizado como um contínuo de pensamentos e ações desde a ideação ao suicídio em si . Estudos demonstram que, dentre os principais fatores de risco para o comportamento suicida, encontram-se situações de alto nível de estresse e angústia, como transições e mudanças que fazem parte do momento vivido por universitários .
 Por exemplo, Dutra (2012) realizou um estudo com universitários de Psicologia do Rio Grande do Norte, demonstrando que 52,45% de tais alunos já haviam tido ideação suicida.
 Assim, a detecção precoce de ideação suicida entre universitários torna-se necessária, para que se possa intervir e prevenir a ocorrência de tentativas, que quando não levam ao resultado morte, podem ocasionar sérias sequelas físicas e mentais.
-	A prevenção do suicídio é uma preocupação mundial, conforme relatório da OMS intitulado Prevenção do suicídio: um imperativo global . Em âmbito nacional, a preocupação com os crescentes índices levou à sanção da Lei nº 13.819/2019, instituindo a Política Nacional de Prevenção da Automutilação e do Suicídio no Brasil (PNPAS). 
+A prevenção do suicídio é uma preocupação mundial, conforme relatório da OMS intitulado Prevenção do suicídio: um imperativo global . Em âmbito nacional, a preocupação com os crescentes índices levou à sanção da Lei nº 13.819/2019, instituindo a Política Nacional de Prevenção da Automutilação e do Suicídio no Brasil (PNPAS). 
 Entretanto, o medo do julgamento ou ignorância acerca da natureza do sofrimento psíquico reduzem a procura de jovens por atendimento especializado, prejudicando a efetivação de medidas de prevenção.
-	É sabido que, geralmente, pessoas com alto nível de estigma preferem abordagens digitais a atendimentos face a face . Logo, o desenvolvimento de ferramentas de informática, com garantia ao sigilo de dados, permitiria maior interação com estudantes de graduação acerca de saúde mental e eventuais ideações suicidas.
+É sabido que, geralmente, pessoas com alto nível de estigma preferem abordagens digitais a atendimentos face a face . Logo, o desenvolvimento de ferramentas de informática, com garantia ao sigilo de dados, permitiria maior interação com estudantes de graduação acerca de saúde mental e eventuais ideações suicidas.
 A detecção de sinais de alerta quanto a variáveis relacionadas ao comportamento suicida, por meio da aplicação de questionários e interação com o usuário do sistema, pode ser direcionada ao setor da Instituição de Ensino responsável por medidas de fomento ao bem-estar estudantil, subsidiando ações de prevenção focas no indivíduo e capazes de evitar episódios agudos.
 
-
-
-
 # Público alvo
-	Definiu-se como público do alvo do presente trabalho, estudantes de graduação da Faculdade Horizonte Azul. Ainda receberão dados coletados, bem como alertas de risco, profissionais da Universidade responsáveis pro fomento ao bem-estar mental estudantil.
+Definiu-se como público do alvo do presente trabalho, estudantes de graduação da Faculdade Horizonte Azul. Ainda receberão dados coletados, bem como alertas de risco, profissionais da Universidade responsáveis pro fomento ao bem-estar mental estudantil.
 
