@@ -1,4 +1,4 @@
-1.	Introdução
+# Introdução
 
 A Organização Mundial da Saúde (OMS) define saúde mental como “um estado de bem-estar no qual um indivíduo é capaz de usar suas próprias habilidades, recuperar-se do estresse rotineiro, ser produtivo, contribuir com a sua comunidade” (World Health Organization, 2022 ). Tal definição enfatiza a importância da capacidade adaptativa frente a mudanças. 
 Estudantes universitários, por natureza, lidam em suas rotinas com constantes mudanças e incertezas. Os estudantes de graduação enfrentam desafios inerentes à transição para a vida adulta, além da necessária adaptação às novas rotinas da universidade.
@@ -6,7 +6,7 @@ Não raramente, tal conjuntura resulta em maior risco de adoecimento mental. Psi
 Tentativas de suicídio estão ligadas, em grande parte das vezes, a problemas de saúde mental não diagnosticados e não tratados apropriadamente (referência).
 Assim, são necessárias ações capazes de contribuir para o melhor monitoramento da saúde mental de estudantes de graduação das universidades brasileiras e, consequentemente, gerar melhores oportunidades de prevenção e intervenção.
 
-2.	Problema
+## Problema
 
 No âmbito do nosso projeto, identificamos um desafio premente: a falta de ferramentas capazes de monitorar o estado de saúde mental de universitários brasileiros. A ausência de ferramentas de monitoramento prejudica a implementação de ações voltadas para a prática de intervenções em crises agudas decorrentes de alterações no campo da saúde mental, como tentativas de suicídio.
 	O suicídio é definido como morte autoprovocada com evidências, sejam elas implícitas ou explícitas de que a pessoa pretendia/tinha a intenção de morrer . 
