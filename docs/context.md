@@ -8,7 +8,7 @@ Assim, são necessárias ações capazes de contribuir para o melhor monitoramen
 
 ## Problema
 
-No âmbito do nosso projeto, identificamos um desafio premente: a falta de ferramentas capazes de monitorar o estado de saúde mental de universitários brasileiros. A ausência de ferramentas de monitoramento prejudica a implementação de ações voltadas para a prática de intervenções em crises agudas decorrentes de alterações no campo da saúde mental, como tentativas de suicídio.
+Identificou-se um desafio premente: a falta de ferramentas capazes de monitorar o estado de saúde mental de universitários brasileiros. A ausência de ferramentas de monitoramento prejudica a implementação de ações voltadas para a prática de intervenções em crises agudas decorrentes de alterações no campo da saúde mental, como tentativas de suicídio.
 	O suicídio é definido como morte autoprovocada com evidências, sejam elas implícitas ou explícitas de que a pessoa pretendia/tinha a intenção de morrer . 
 	O comportamento suicida é conceitualizado como um contínuo de pensamentos e ações desde a ideação ao suicídio em si . Estudos demonstram que, dentre os principais fatores de risco para o comportamento suicida, encontram-se situações de alto nível de estresse e angústia, como transições e mudanças que fazem parte do momento vivido por universitários .
 	Por exemplo, Dutra (2012) realizou um estudo com universitários de Psicologia do Rio Grande do Norte, demonstrando que 52,45% de tais alunos já haviam tido ideação suicida.
