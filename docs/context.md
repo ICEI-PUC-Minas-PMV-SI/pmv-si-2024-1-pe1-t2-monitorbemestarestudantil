@@ -24,7 +24,7 @@ Objetivos Específicos
 
    
 ## Justificativa
-	O suicídio é definido como morte autoprovocada com evidências, sejam elas implícitas ou explícitas de que a pessoa pretendia/tinha a intenção de morrer . 
+	 
 	O comportamento suicida é conceitualizado como um contínuo de pensamentos e ações desde a ideação ao suicídio em si . Estudos demonstram que, dentre os principais fatores de risco para o comportamento suicida, encontram-se situações de alto nível de estresse e angústia, como transições e mudanças que fazem parte do momento vivido por universitários .
 	Por exemplo, Dutra (2012) realizou um estudo com universitários de Psicologia do Rio Grande do Norte, demonstrando que 52,45% de tais alunos já haviam tido ideação suicida.
 	Assim, a detecção precoce de ideação suicida entre universitários torna-se necessária, para que se possa intervir e prevenir a ocorrência de tentativas, que quando não levam ao resultado morte, podem ocasionar sérias sequelas físicas e mentais.
