@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de fornecer informações acerca de saúde mental a estudantes de graduação, bem como obter eventuais indicadores acerca de comportamento suicida que, repassados à administração da universidade, com respeito à proteção de dados pessoais, subsidiariam eventuais intervenções e medidas de prevenção.
 
 ## Integrantes
 
