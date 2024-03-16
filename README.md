@@ -13,8 +13,8 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 * Maria Eduarda Suzart de Carvalho
 * Nikolas Martins de Oliveira
 * João Paulo Lopes Cançado
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Bráulio Marcone de Castro
+* Cauê da Paixão Gomes
 
 ## Orientador
 
