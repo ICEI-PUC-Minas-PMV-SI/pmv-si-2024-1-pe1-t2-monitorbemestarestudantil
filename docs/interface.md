@@ -7,17 +7,10 @@ A seguir, apresentaremos o user flow para uma plataforma de monitoramento da sa�
 
 ![UserFlow](img/user_flow.jpg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
+No processo de design de interfaces para sites web, os wireframes desempenham um papel crucial ao sugerir a estrutura e os relacionamentos entre as diferentes páginas. Esses protótipos visuais oferecem uma representação simplificada do layout e dos elementos fundamentais da interface, permitindo uma visualização clara da organização do conteúdo e da navegação do usuário. Cada wireframe é cuidadosamente relacionado aos requisitos específicos que visa atender, garantindo que o design final atenda às necessidades e expectativas dos usuários. Vamos explorar um exemplo de wireframe e os requisitos que ele aborda.
 
 ### Exemplo
 
