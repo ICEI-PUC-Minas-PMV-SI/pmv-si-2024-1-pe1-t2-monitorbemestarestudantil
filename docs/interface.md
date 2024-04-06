@@ -1,13 +1,11 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+A seguir, apresentaremos o user flow para uma plataforma de monitoramento da saúde mental de estudantes universitários, conforme descrito nas especificações fornecidas. Esta plataforma foi projetada com base nos requisitos funcionais, não funcionais e nas histórias de usuário detalhadas na documentação de especificação. O objetivo principal é oferecer uma experiência intuitiva e eficaz para os usuários, fornecendo ferramentas e recursos para promover o bem-estar emocional e prevenir crises mentais. 
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![UserFlow](img/user_flow.jpg)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
