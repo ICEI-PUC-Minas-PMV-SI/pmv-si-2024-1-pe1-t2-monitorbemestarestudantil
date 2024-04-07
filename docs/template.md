@@ -9,7 +9,7 @@
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/11eab800-032e-4c55-a617-04ef384efc3b)
 
 
 ## Tipografia
