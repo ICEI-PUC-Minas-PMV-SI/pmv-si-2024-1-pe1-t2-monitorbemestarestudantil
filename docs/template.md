@@ -1,5 +1,6 @@
 # Template padrão do site
-![Site_home_page](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/ae50dfa6-e32d-48e4-9060-a11d8d8d9c96)
+![Página_Inicial](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/9052931b-2025-429d-a971-2ed372d08e9d)
+
 
 ## Design
 
