@@ -1,8 +1,5 @@
 # Template padrão do site
-
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+![Site_home_page](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/ae50dfa6-e32d-48e4-9060-a11d8d8d9c96)
 
 ## Design
 
