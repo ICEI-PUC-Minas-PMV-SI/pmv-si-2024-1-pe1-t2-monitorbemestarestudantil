@@ -27,7 +27,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
+|RF-001| A plataforma deve ser capaz de analisar o conteúdo gerado pelos usuários a fim de identificar indicadores de comportamento suicida. Essa funcionalidade deve ser capaz de classificar esse risco em níveis específicos, permitindo assim uma intervenção precoce e direcionada ao indivíduo, enviando alertas para o setor da universidade responsável pela promoção da saúde e bem estar dos estudantes. | Maria Eduarda | questionario.html / questionario.css|
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
 
 ## Descrição das estruturas:
