@@ -11,6 +11,13 @@ tela de cadastro
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/02279508-401a-4bc9-8c33-37a146e4c05a)
 
 
+tela de registro de pensamentos 
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/66a6ed4c-6774-42d8-8349-7f5e1376264f)
+
+
+
 ## Design
 ![logo_trial (3)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/7493cfc7-7712-4264-b2b4-8989aed6f6f9)
 
