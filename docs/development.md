@@ -27,8 +27,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A plataforma deve ser capaz de analisar o conteúdo gerado pelos usuários a fim de identificar indicadores de comportamento suicida. Essa funcionalidade deve ser capaz de classificar esse risco em níveis específicos, permitindo assim uma intervenção precoce e direcionada ao indivíduo, enviando alertas para o setor da universidade responsável pela promoção da saúde e bem estar dos estudantes. | Maria Eduarda | questionario.html / questionario.css|
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| RF-001: A plataforma deve ser capaz de analisar o conteúdo gerado pelos usuários a fim de identificar indicadores de comportamento suicida. Essa funcionalidade deve ser capaz de classificar esse risco em níveis específicos, permitindo assim uma intervenção precoce e direcionada ao indivíduo, enviando alertas para o setor da universidade responsável pela promoção da saúde e bem estar dos estudantes. ; RF-005: A plataforma deve permitir que os usuários solicitem ajuda ou encaminhamento para profissionais de saúde mental qualificados quando necessário, garantindo a confidencialidade e privacidade das informações compartilhadas. ; RNF-004: A plataforma deve ter uma interface intuitiva e amigável, com elementos de design que facilitem a navegação e compreensão das funcionalidades, mesmo para usuários menos experientes. | RNF-001: A plataforma deve estar em conformidade com as normas e regulamentações de saúde mental e privacidade de dados, garantindo que todas as práticas e procedimentos adotados estejam alinhados com as melhores práticas da área. ;   | Maria Eduarda | questionario.html / questionario.css|
+|RF-002|  | João Paulo | cadastro-noticia.html |
 
 ## Descrição das estruturas:
 
