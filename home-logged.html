@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home-page-logged.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="./js/components/search-box.js"></script>
+    <script src="./js/components/navbar.js"></script>
+    <script src="./js/components/footer.js"></script>
+    <script src="./js/components/carousel-slider.js"></script>
+</head>
+
+<body>
+    <navigation-bar></navigation-bar>
+    <div style="height: 10vh;"></div>
+    <div class="carousel-wrapper">
+        <div id="container">
+            <div id="slider-container">
+                <span onclick="slideRight()" class="btn"></span>
+                <carousel-slider></carousel-slider>
+                <span onclick="slideLeft()" class="btn"></span>
+            </div>
+        </div>
+    </div>
+    <div class="posts-container">
+        <div id="randomized-posts"></div>
+    </div>
+    <div style="height: 10vh;"></div>
+    <div style="height: 10vh;"></div>
+    <custom-footer></custom-footer>
+    <script src="./js/components/randomized-posts.js"></script>
+    <script src="./js/carousel-scroll.js"></script>
+</body>
+
+</html>
