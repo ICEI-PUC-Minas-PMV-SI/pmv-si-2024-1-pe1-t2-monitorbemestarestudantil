@@ -8,7 +8,8 @@
 
 ## Cores
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/11eab800-032e-4c55-a617-04ef384efc3b)
+![Captura de tela_5-5-2024_193037_gradients app](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/dc75c2af-fa06-47d8-a2bc-23b9ab224f59)
+
 
 
 ## Tipografia
