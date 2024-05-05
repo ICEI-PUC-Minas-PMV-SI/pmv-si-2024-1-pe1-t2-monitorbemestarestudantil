@@ -1,6 +1,16 @@
 # Template padrão do site
 ![Captura de tela_5-5-2024_19922_](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/e5eddbd4-2231-4caf-a42e-cbeb904bed9b)
 
+tela de login 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/9fd4982c-80e1-4ead-b2c4-6dcc79eab971)
+
+
+tela de cadastro 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/02279508-401a-4bc9-8c33-37a146e4c05a)
+
+
 ## Design
 ![logo_trial (3)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/7493cfc7-7712-4264-b2b4-8989aed6f6f9)
 
