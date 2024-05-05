@@ -20,7 +20,8 @@
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/c926df3c-dca3-428c-bb2e-e7b9cc4fd60d)
+
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
