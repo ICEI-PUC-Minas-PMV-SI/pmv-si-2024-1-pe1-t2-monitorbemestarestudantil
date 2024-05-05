@@ -36,7 +36,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
+| Diario Emocional | Opções de Sentimento do Dia | Resposta do Usuario | Estou Triste |
+| Dia     | Data de hoje | Sentimento do Usuario Hoje | 
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| Diario Emocional | Opções de Sentimento do Dia | Resposta do Usuario | Estou Feliz |
+| Dia     | Data de hoje | Sentimento do Usuario Hoje |
+| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Diario Emocional | Opções de Sentimento do Dia | Resposta do Usuario | Estou Neutro |
+| Dia     | Data de hoje | Sentimento do Usuario Hoje |
