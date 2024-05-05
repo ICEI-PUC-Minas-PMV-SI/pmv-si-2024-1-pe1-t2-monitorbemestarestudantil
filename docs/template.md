@@ -1,5 +1,6 @@
 # Template padrão do site
-![Página_Inicial](![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/ea4cb26b-8c17-40c7-8631-002b552037a3)
+![Página_Inicial](![WhatsApp Image 2024-05-05 at 19 01 53](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/332ae6da-1c7b-47ee-a175-b5d9755d9d2b)
+)
 )
 
 
