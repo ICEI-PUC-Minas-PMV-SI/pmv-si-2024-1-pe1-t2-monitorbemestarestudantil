@@ -31,8 +31,14 @@ tela de registro de pensamentos
 
 ## Tipografia
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/a952bc78-9335-4d6c-bb61-8deda9e16cc8)
+A fonte utilizada para cada elemento
 
+body, input, textarea, button: Sans-serif (o valor padrão para qualquer elemento sem uma fonte específica)
+h1: Raleway
+h2: Montserrat
+label: Lato
+p: Open Sans
+Isso significa que os elementos <h1> terão a fonte "Raleway", os <h2> terão "Montserrat", os <label> terão "Lato" e os parágrafos <p> terão "Open Sans". Todas as outras partes do corpo do documento, como texto, botões e campos de entrada, utilizarão a fonte sans-serif padrão.
 
 
 ## Iconografia
