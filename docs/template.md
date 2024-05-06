@@ -28,6 +28,15 @@ tela de registro de pensamentos
 ![Captura de tela_5-5-2024_193037_gradients app](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/dc75c2af-fa06-47d8-a2bc-23b9ab224f59)
 
 
+A paleta de cores do projeto foi cuidadosamente elaborada para transmitir uma mensagem de saúde, vitalidade e acolhimento. A combinação de tons focado principalmente em verde claro busca criar uma experiência visualmente atraente e informativa para os usuários que buscam suporte emocional, direcionamento e auxilio devido as dificuldades do ambiente universitário.
+
+Simbolismo das cores:
+
+Verde: Associado à saúde, vitalidade e bem-estar, o verde é a cor predominante na paleta.
+Branco: Representa neutralidade, pureza e clareza, facilitando a leitura e a compreensão das informações.
+
+
+
 
 ## Tipografia
 
