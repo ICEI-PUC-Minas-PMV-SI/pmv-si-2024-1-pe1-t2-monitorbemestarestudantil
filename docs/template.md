@@ -33,6 +33,7 @@ A paleta de cores do projeto foi cuidadosamente elaborada para transmitir uma me
 Simbolismo das cores:
 
 Verde: Associado à saúde, vitalidade e bem-estar, o verde é a cor predominante na paleta.
+
 Branco: Representa neutralidade, pureza e clareza, facilitando a leitura e a compreensão das informações.
 
 
