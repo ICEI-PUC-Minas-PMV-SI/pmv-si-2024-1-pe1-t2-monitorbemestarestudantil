@@ -20,6 +20,7 @@ tela de registro de pensamentos
 
 ## Design
 Logo do projeto 
+
 ![logo_trial (3)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/7493cfc7-7712-4264-b2b4-8989aed6f6f9)
 
 
