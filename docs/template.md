@@ -1,21 +1,17 @@
 # Template padrão do site
-![Captura de tela_5-5-2024_19922_](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/e5eddbd4-2231-4caf-a42e-cbeb904bed9b)
+![3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/2e89bcc5-b218-434a-91d3-38be8c04034f)
 
 tela de login 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/9fd4982c-80e1-4ead-b2c4-6dcc79eab971)
-
+![7](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/a2d38582-1a86-4234-8e57-f64a06e76180)
 
 tela de cadastro 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/02279508-401a-4bc9-8c33-37a146e4c05a)
-
+![7](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/a2d38582-1a86-4234-8e57-f64a06e76180)
 
 tela de registro de pensamentos 
 
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/66a6ed4c-6774-42d8-8349-7f5e1376264f)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/assets/160251890/1f540124-b034-4cca-ba43-f8d73b425355)
 
 
 ## Design
