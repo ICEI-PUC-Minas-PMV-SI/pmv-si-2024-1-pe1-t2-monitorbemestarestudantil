@@ -36,11 +36,50 @@
                         <li><a href="portfolio.html">Exercícios Físicos</a></li>
                         <li><a href="pricing.html">Entenda sua Mente</a></li>
                         <li><a href="contact.html">Solicitar Ajuda</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
+						<li><a href="login.html" id="logout">Logar</a></li>
+					</ul>
+</div>
+</div>
+</div>
+</header>
+<script>window.onload = function() {
+const user = JSON.parse(localStorage.getItem('loggedInUser'));
+const logoutButton = document.getElementById('logout');
+if (user) {
+logoutButton.textContent = 'Deslogar';
+logoutButton.href = '#';
+logoutButton.addEventListener('click', function(e) {
+e.preventDefault();
+localStorage.removeItem('loggedInUser');
+logoutButton.textContent = 'Logar';
+logoutButton.href = 'login.html';
+logoutButton.removeEventListener('click', arguments.callee);
+logoutButton.addEventListener('click', function() {
+window.location.href = 'login.html';
+});
+});
+} else {
+logoutButton.textContent = 'Logar';
+logoutButton.href = 'login.html';
+}
+};
+
+function login(e) {
+e.preventDefault();
+const username = document.getElementById('username').value;
+const password = document.getElementById('password').value;
+
+// Verifique se o nome de usuário e a senha estão corretos
+if (username === 'user' && password === 'pass') {
+localStorage.setItem('loggedInUser', JSON.stringify({ username }));
+window.location.href = 'index.html';
+} else {
+// Adicione aqui a lógica para quando o login falhar
+}
+}
+
+document.getElementById('login-button').addEventListener('click', login);
+</script>
 	<section id="inner-headline">
 	<div class="container">
 		<div class="row">
