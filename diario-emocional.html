@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Monitor - Bem Estar Estudantil</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
 <!-- css -->
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
- 
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<style>
+	.hidden {
+		display: none;
+	}
+    #entries-list {
+        word-wrap: break-word;
+        color: black;
+    }
+   
+
+</style>
+
 </head>
 <body>
+
 <div id="wrapper">
 
 	<!-- start header -->
-		<header>
+	<header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -26,22 +44,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li> 
-                        
                         <li class="active"><a href="diario-emocional.html">Diário Emocional</a></li>
                         <li><a href="alimentacao.html">Alimentação</a></li>
                         <li><a href="exercicios-fisico.html">Exercícios Físicos</a></li>
                         <li><a href="entenda-sua-mente.html">Entenda sua Mente</a></li>
                         <li><a href="solicitar-ajuda.html">Solicitar Ajuda</a></li>
+                        <li><a href="login.html" id="logout">Logar</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-	</header><!-- end header -->
+	</header>
+	<!-- end header -->
+
 	<section id="inner-headline">
 	    <div class="container">
 		    <div class="row">
@@ -55,175 +75,55 @@
 	<section id="content">
 		<div class="container">
 		    <div class="row">
-			    
-<div class="col-md-4" style="margin-right: 30px;">
-    <div class="panel panel-default" style="font-size: 20px; padding-right: 20px; width: 450px; height: 500px;">
-        <div class="panel-heading" style="font-size: 17px; padding: 20px;">
-            <h3 class="panel-title"style="font-size: 17px;">Adicionar Entrada</h3>
-        </div>
-        <div class="panel-body">
-            <form id="entry-form">
-                <div class="form-group">
-                    <label for="entry-title" style="font-size: 20px; color: black; padding: 10px;">Título:</label>
-                    <input type="text" id="entry-title" required class="form-control" style="width: 420px;">
-                </div>
-                <div class="form-group">
-                    <label for="entry-content" style="font-size: 20px; color: black; padding: 10px;">Conteúdo:</label>
-                    <textarea id="entry-content" required class="form-control" style="height: 264px; width: 420px;"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Adicionar</button>
-            </form>
-        </div>
-    </div>
-</div>
-<script>document.getElementById('entry-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const title = document.getElementById('entry-title').value;
-    const content = document.getElementById('entry-content').value;
-    const charLimit = 2000;
-
-    if (content.length > charLimit) {
-        document.getElementById('entry-content').value = '';
-        return;
-    }
-
-    const now = new Date();
-    const date = now.toISOString().split('T')[0];
-    const time = now.toLocaleTimeString().replace(/:/g, '-');
-    
-  
-    // Crie um novo Blob com o conteúdo da entrada
-    const blob = new Blob([content], { type: 'text/plain' });
-   
-    // Crie um link para o Blob
-     const url = URL.createObjectURL(blob);
-
-     // Crie um link de download para o arquivo de texto
-    const downloadLink = document.createElement('a');
-    downloadLink.download = `${date} ${time}.txt`;
-    downloadLink.href = url;
-    downloadLink.textContent = `${date} ${time} - ${title}`;
-
-    const entryList = document.getElementById('entries-list');
-    const listItem = document.createElement('li');
-    const link = document.createElement('a');
-    link.href = '#';
-    link.textContent = `${date} ${time} - ${title}`;
-    listItem.appendChild(downloadLink);
-    entryList.appendChild(listItem);
-
-    const user = JSON.parse(localStorage.getItem('loggedInUser'));
-    if (!user) {
-        window.location.href = 'login.html';
-        return;
-    }
-
-    let userEntries = JSON.parse(localStorage.getItem(user.username)) || [];
-    userEntries.push({ date, time, title, content });
-    localStorage.setItem(user.username, JSON.stringify(userEntries));
-
-    document.getElementById('entry-title').value = '';
-    document.getElementById('entry-content').value = '';
-    function loadEntries() {
-    const user = JSON.parse(localStorage.getItem('loggedInUser'));
-    if (!user) {
-        return;
-    }
-
-    const userEntries = JSON.parse(localStorage.getItem(user.username)) || [];
-    const entriesList = document.getElementById('entries-list');
-
-    
-    while (entriesList.firstChild) {
-        entriesList.removeChild(entriesList.firstChild);
-    }
-
-    
-    userEntries.forEach(function(entry) {
-    const listItem = document.createElement('li');
-    listItem.textContent = entry.replace('.entradas', 'entradas');
-    entriesList.appendChild(listItem);
-
-    });
-}
-});
-
-function loadEntries() {
-    const user = JSON.parse(localStorage.getItem('loggedInUser'));
-    if (!user) {
-        window.location.href = 'login.html';
-        return;
-    }
-
-    let userEntries = JSON.parse(localStorage.getItem(user.username)) || [];
-    const entryList = document.getElementById('entries-list');
-    entryList.innerHTML = '';
-
-    for (const entry of userEntries) {
-        const listItem = document.createElement('li');
-        const link = document.createElement('a');
-        link.href = '#';
-        link.textContent = `${entry.date} ${entry.time} - ${entry.title}`;
-        listItem.appendChild(link);
-        entryList.appendChild(listItem);
-    }
-}
-
-window.onload = function() {
-    const user = JSON.parse(localStorage.getItem('loggedInUser'));
-    const logoutButton = document.getElementById('logout');
-    if (user) {
-        logoutButton.textContent = 'Deslogar';
-        logoutButton.href = '#';
-        logoutButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            localStorage.removeItem('loggedInUser');
-            logoutButton.textContent = 'Logar';
-            logoutButton.href = 'login.html';
-            logoutButton.removeEventListener('click', arguments.callee);
-            logoutButton.addEventListener('click', function() {
-                window.location.href = 'login.html';
-            });
-        });
-    } else {
-        logoutButton.textContent = 'Logar';
-        logoutButton.href = 'login.html';
-    }
-
-    loadEntries();
-};
-</script>
-
-				
-                <div class="col-md-6 ml-auto" style="margin-left: 160px;">
-                    <div class="panel panel-default" style="font-size: 17px; padding-left: 17px; width: 450px; height: 450px;">
-                        <div class=panel-heading style="align-items: center; display: flex; font-size: 20px; padding-left: 20px; justify-content: space-between;">
-                            <h3 class="panel-title"style="font-size: 17px;">Suas Entradas</h3>
-							<a href="entries.html" style="font-size: 17px;">Todas as Entradas</a>
-
+			    <div class="col-md-4" style="margin-right: 30px;">
+                    <div class="panel panel-default" style="font-size: 20px; padding-right: 20px; width: 450px; height: 500px;">
+                        <div class="panel-heading" style="font-size: 17px; padding: 20px;">
+                            <h3 class="panel-title"style="font-size: 17px;">Adicionar Entrada</h3>
                         </div>
-						
-
                         <div class="panel-body">
-                            <ul id="entries-list" style="word-wrap: break-word; color: black;">
-
-                            </ul>
+                            <form id="entry-form">
+                                <div class="form-group">
+                                    <label for="entry-title" style="font-size: 20px; color: black; padding: 10px;">Título:</label>
+                                    <input type="text" id="entry-title" required class="form-control" style="width: 420px;">
+                                </div>
+                                <div class="form-group">
+                                    <label for="entry-content" style="font-size: 20px; color: black; padding: 10px;">Conteúdo:</label>
+                                    <textarea id="entry-content" required class="form-control" style="height: 264px; width: 420px;"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Adicionar</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                
-		    </div>
-	    </div>
+
+                <div class="col-md-6 ml-auto" style="margin-left: 160px;">
+                    <div class="panel panel-default" style="font-size: 17px; padding-left: 17px; width: 450px; height: 450px;">
+                        <div class=panel-heading style="align-items: center; display: flex; font-size: 20px; padding-left: 20px; justify-content: space-between;">
+                            <h3 class="panel-title"style="font-size: 17px;">Todas as Entradas</h3>
+                        
+                        </div>
+                        <div class="panel-body">
+                            <ul id="entries-list" style="word-wrap: break-word; color: black;">
+                                <!-- Itens da lista de entradas serão adicionados aqui -->
+                            </ul>
+                            <!-- Mover input e botão para aqui, abaixo da lista -->
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                <input type="file" id="fileInput" accept=".txt" style="width: 60%; font-size: 14px;">
+                                <button id="saveEntry" style="width: 35%; font-size: 14px;">Salvar Entrada</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
 	</section>
-	<div id="console"></div>
+
 	<footer>
 		<div class="container">
 		  <!-- Additional footer content here -->
 		</div>
 	</footer>
 </div>
-
 
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 
@@ -238,98 +138,7 @@ window.onload = function() {
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/login.js"></script>
+<script src="js/diario.js"></script>
 
-<script>
-
-
-
-document.getElementById('entry-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const content = document.getElementById('entry-content').value;
-    const charLimit = 2000; // Defina o limite de caracteres aqui
-
-    if (content.length > charLimit) {
-      
-        document.getElementById('entry-content').value = '';
-        return;
-    }
-
-    // Restante do código de manipulação de envio do formulário...
-});
-
-
-
-
-
-
-
-
-
-window.onload = function() {
-    const user = JSON.parse(localStorage.getItem('loggedInUser'));
-    const logoutButton = document.getElementById('logout');
-    if (user) {
-        logoutButton.textContent = 'Deslogar';
-        logoutButton.href = '#';
-        logoutButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            localStorage.removeItem('loggedInUser');
-            logoutButton.textContent = 'Logar';
-            logoutButton.href = 'login.html';
-            logoutButton.removeEventListener('click', arguments.callee);
-            logoutButton.addEventListener('click', function() {
-                window.location.href = 'login.html';
-            });
-        });
-    } else {
-        logoutButton.textContent = 'Logar';
-        logoutButton.href = 'login.html';
-    }
-
-    loadEntries();
-};
-
-
-</script>
-
-
-					</div>
-									
-				</div>
-	</section>
-	<footer>
-	<div class="container">
-
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-					</div>
-				</div>
-				<div class="col-lg-6">
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script> 
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
 </body>
 </html>
