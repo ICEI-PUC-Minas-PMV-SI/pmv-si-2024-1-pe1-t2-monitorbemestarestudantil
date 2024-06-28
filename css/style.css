@@ -971,8 +971,13 @@ ul.link-list li{
 	padding:2px 0 2px 0;
 	list-style:none;
 }
-footer{
-background: #046E5A;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+	background: #046E5A;
 }
 footer ul.link-list li a{
 	color:#fff;
