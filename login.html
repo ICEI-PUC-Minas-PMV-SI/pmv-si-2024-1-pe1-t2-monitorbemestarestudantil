@@ -71,10 +71,7 @@
     </div>
 
     <script>
-        const loginForm = document.getElementById('loginForm');
-        const registerForm = document.getElementById('registerForm');
-
-        loginForm.addEventListener('submit', function(event) {
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault();
             const username = document.getElementById('loginUsername').value;
             const password = document.getElementById('loginPassword').value;
@@ -82,13 +79,14 @@
             const storedPassword = localStorage.getItem(username);
 
             if (storedPassword === password) {
+                localStorage.setItem('loggedInUser', JSON.stringify({ username }));
                 window.location.href = 'index.html';
             } else {
                 document.getElementById('loginError').innerText = 'Credenciais incorretas. Tente novamente.';
             }
         });
 
-        registerForm.addEventListener('submit', function(event) {
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
             event.preventDefault();
             const username = document.getElementById('registerUsername').value;
             const password = document.getElementById('registerPassword').value;
@@ -100,6 +98,13 @@
                 document.getElementById('registerError').innerText = 'Registro bem-sucedido. Agora você pode fazer login.';
             }
         });
+
+        window.onload = function() {
+            const user = JSON.parse(localStorage.getItem('loggedInUser'));
+            if (user) {
+                window.location.href = 'index.html';
+            }
+        };
     </script>
 </body>
 </html>
