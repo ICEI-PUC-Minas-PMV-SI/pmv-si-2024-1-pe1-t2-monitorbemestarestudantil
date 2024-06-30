@@ -28,14 +28,9 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 | ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
 
-# Código
-
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/edit/main/README.md"> Código Fonte</a></li>
-
 # Link da aplicação
 
 <li><a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/"> Monitor Bem Estar Estudantil </a></li>
-
 
 # Apresentação
 
