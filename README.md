@@ -13,8 +13,6 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 * Maria Eduarda Suzart de Carvalho
 * Nikolas Martins de Oliveira
 * João Paulo Lopes Cançado
-* Bráulio Marcone de Castro
-* Cauê da Paixão Gomes
 
 ## Orientador
 
