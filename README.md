@@ -10,9 +10,10 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 
 ## Integrantes
 
+* João Paulo Lopes Cançado
 * Maria Eduarda Suzart de Carvalho
 * Nikolas Martins de Oliveira
-* João Paulo Lopes Cançado
+
 
 ## Orientador
 
