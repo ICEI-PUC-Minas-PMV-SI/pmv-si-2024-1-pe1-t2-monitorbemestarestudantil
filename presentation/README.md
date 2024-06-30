@@ -7,7 +7,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 * [Pitch inicial]([Pitch inicial.pptx](https://github.com/user-attachments/files/16046130/Pitch.inicial.pptx) -- arquivo com os slides da apresentação inicial
 * [Apresentação final][Apresentação final.pptx](https://github.com/user-attachments/files/16046131/Apresentacao.final.pptx) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](link1:https://youtu.be/L7JJLUahjgo link2:https://youtu.be/DTHvDfJZLcc) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de demonstração](apresentação:https://youtu.be/L7JJLUahjgo demonstração:https://youtu.be/DTHvDfJZLcc) -- arquivo com a demonstração do funcionamento do sistema
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
