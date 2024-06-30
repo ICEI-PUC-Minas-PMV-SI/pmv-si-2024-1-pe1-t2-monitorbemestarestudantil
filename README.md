@@ -32,7 +32,7 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 
 # Código
 
-<li><a href="/main/README.md"> Código Fonte</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/edit/main/README.md"> Código Fonte</a></li>
 
 # Link da aplicação
 
