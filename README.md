@@ -32,7 +32,12 @@ Trata-se de projeto voltado para o desenvolvimento de aplicação capaz de forne
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="/main/README.md"> Código Fonte</a></li>
+
+# Link da aplicação
+
+<li><a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t2-monitorbemestarestudantil/"> Monitor Bem Estar Estudantil </a></li>
+
 
 # Apresentação
 
